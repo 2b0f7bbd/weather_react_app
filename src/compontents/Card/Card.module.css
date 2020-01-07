@@ -1,0 +1,22 @@
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 10% auto;
+  text-align: center;
+  font-size: 1.3em;
+  border-radius: 10px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09),
+    0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09),
+    0 32px 16px rgba(0, 0, 0, 0.09);
+  background-color: #4a4e69;
+  overflow: hidden;
+}
+
+.loading {
+  display: block;
+  margin: 20% auto;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
